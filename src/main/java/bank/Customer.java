@@ -6,7 +6,8 @@ public class Customer {
   private String username;
   private String password;
   private int accountId;
-  public Customer (int id, String name, String username, String password, int accountId){
+
+  public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
     setUsername(username);
@@ -16,6 +17,7 @@ public class Customer {
 
   public int getId() {
     return this.id;
+
   }
 
   public void setId(int id) {
